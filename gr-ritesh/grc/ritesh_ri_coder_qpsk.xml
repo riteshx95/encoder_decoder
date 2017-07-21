@@ -1,0 +1,25 @@
+<block>
+  <name>Ri coder qpsk</name>
+  <key>ritesh_ri_coder_qpsk</key>
+  <category>RITESH</category>
+  <import>import ritesh</import>
+  <make>ritesh.ri_coder_qpsk($N, $M)</make>
+  <param>
+    <name>N</name>
+    <key>N</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>M</name>
+    <key>M</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,32 @@
+<block>
+  <name>Ri coder</name>
+  <key>ritesh_ri_coder</key>
+  <category>RITESH</category>
+  <import>import ritesh</import>
+  <make>ritesh.ri_coder($variance, $N, $M)</make>
+  <callback>update_variance($variance)</callback>
+  <callback>update_n($N)</callback>
+  <param>
+    <name>Variance</name>
+    <key>variance</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>N</name>
+    <key>N</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>M</name>
+    <key>M</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

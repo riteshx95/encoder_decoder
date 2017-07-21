@@ -1,0 +1,26 @@
+<block>
+  <name>Ri decoder</name>
+  <key>ritesh_ri_decoder</key>
+  <category>RITESH</category>
+  <import>import ritesh</import>
+  <make>ritesh.ri_decoder($N, $M)</make>
+  <param>
+    <name>N</name>
+    <key>N</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>M</name>
+    <key>M</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>2</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
