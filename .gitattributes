@@ -1,1 +1,2 @@
-gr-ritesh/python/* linguist-vendored
+* linguist-vendored
+*.cc linguist-vendored=false
